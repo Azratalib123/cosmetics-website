@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmetics Store</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+ background-color:#fad4e7
+      }
+      header {
+        background: #e4d9d9;
+        padding: 20px 0;
+        text-align: center;
+      }
+      nav {
+        background-color: #302e2e;
+        color: #553e3e;
+        text-align: center;
+        padding: 10px 0;
+      }
+      nav a {
+        color: #fcf6f6;
+        text-decoration: none;
+        padding: 0 10px;
+        
+      }
+      section {
+        padding: 20px;
+      }
+      .tab {
+        width: 100%;
+        border-collapse: collapse;
+        background-image: url("images/backgroun..new.avif"); 
+      }
+      table{
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 10px;
+        text-align: center;
+        border: 2px solid #581111;
+       
+      }
+     
+      img {
+        max-width: 300px;
+      }
+      h1 {
+        text-align: center;
+        text-shadow: #553e3e;
+        text-indent: 20px;
+        color: rgb(10, 10, 58);
+        text-shadow: -2px -2px 2px rgb(224, 15, 15);
+      }
+
+ .bold {
+    font-size: large;
+    font-style:oblique;
+color: rgb(16, 157, 161);
+ }
+ b {
+    color: crimson;
+ }
+ .head {
+    color: rgb(63, 23, 5);
+    text-indent: 0cqmax;
+    text-shadow: -4px -4px 6px #454606;
+ }
+ .main {
+    text-shadow:-2px 5px 9px hsl(283, 90%, 37%);
+ }
+
+a:hover{
+color: rgba(0, 255, 13, 0.808);
+}
+.search{
+width: 350px;
+color: #fcf6f6;
+}
+.srch{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: medium;
+width: 200px;
+height: 40px;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: #d872aa;
+
+}
+.btn:hover{
+    color:rgb(170, 111, 224)
+}
+.srch:focus{
+    outline: #220449;
+}
+ h2{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+
+  }
+  .word{
+background-color: hsl(323, 72%, 79%);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: #2f0b72;
+text-shadow: 2px 3px 3px #d872aa;
+width: 100px;
+height: 200px;
+  }
+  .back-to-top{
+    position: fixed;
+    bottom: 1rem;
+    right: 0.1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-decoration:none ;
+    transition:0.2s ease-out ;
+   font: size 1rem; ;
+}
+.Moj{
+  text-align: center;
+}
+.web{
+  color: #581111;
+  font-size: xx-large;
+  text-shadow:3px 9px 7px #220449;
+}
+    </style>
+  </head>
+  <body>
+   
+    <input class="srch" type="search"search name="" placeholder="Type to text" >
+    <a href=""><button class="btn">Search</button></a>
+    
+    <header>
+      <h1 class="head"> Cosmetics Store</h1>
+     <h2 class="web">Welcome To My Website</h2>
+    </header>
+    <nav>
+    <a href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact </a>
+     
+     
+    </nav>
+    <img class="Moj" src="images/beauty-cosmetic-makeup-product-brushes-lipstick-nail-polish-collection-on-white-background-generative-ai-free-photo.jpg" alt="images" width="500px" height="500px" text-align="center"/>
+    <br>
+        <br>
+    <section>
+      <table class="tab">
+        <tr>
+          <th >Product</th>
+          <th >Description</th>
+          <th >Price</th>
+        </tr>
+        <tr>
+          <td>
+            <img src="images/bob m.jpg" alt="images" width="100" height="100" />
+          </td>
+          <td>Lorem ipsum dolor sit, amet <b>consectetur</b> adipisicing elit. Veritatis, quia. Quidem vero necessitatibus dolore earum, tempore quisquam temporibus....</td>
+          <td><del>Rs:2500</del><br><em>Rs:1500</em></td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="images/foundation.jpg"alt="pic"
+              alt="Product 2"
+              width="150"
+              height="100"
+            />
+          </td>
+          <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facere, aliquam consectetur nesciunt fugit, officia iure qui rerum assumenda dolorem eligendi.</td>
+          <td><del>Rs:3500</del><br><em>Rs:2500</em></td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="images/contoring.webp"
+              alt="Product 3"
+              width="100"
+              height="100"
+            />
+          </td>
+          <td>Lorem ipsum,<b class="bold"> dolor </b>sit amet consectetur adipisicing elit.<i> Tempora assumenda </i> explicabo consequatur, vero hic dignissimos rerum? Beatae, quidem tenetur.</td>
+          <td><del>Rs:2000</del><br><em>Rs:1000</em></td>
+        </tr>
+      </table>
+    </section>
+    <h1>HOME PAGE</h1>
+
+   
+<table>
+<tr>
+<td class="box"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
+    quisquam,?
+ </td>
+
+<img
+      class="imag.deg"
+      src="images/mascara eye.jpg"
+      width="900"
+
+      align="center"/>
+      
+</tr>
+
+</table>
+<table>
+    <tr>
+    <td class="box"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
+        quisquam, aliquid ad rem voluptatibus sit libero earum, impedit autem
+        dolores facere?
+     </td>
+    
+    </tr>
+    
+    </table>
+  
+   
+  <img 
+      class="imag.deg"
+      src="images/H71a19d04983f442481c7ec47390c6c97d.jpg_200x200.webp"
+      width="800"/>
+      <img
+      class="imag.deg"
+      src="images/eyemakeup.jpg"
+      width="900"/>
+      <img 
+      class="imag.deg"
+      src="images/eyes.jpeg"
+      width="800"/>
+      <img 
+      class="imag.deg"
+      src="images/eye makup new.jpg"
+      width="800"
+      height="300"/>
+      <img 
+      class="imag.deg"
+      src="images/eye shadow.jpg"
+      width="800"
+      height="350"/>
+      <img 
+      class="imag.deg"
+      src="images/new,eye.jpg"
+      width="800"
+      height="350"
+      />
+      <img 
+      class="imag.deg"
+      src="images/aye shadow.jpg"
+      width="800"
+      height="350"/>
+      <img 
+      class="imag.deg"
+      src="images/lips.jpg"
+      width="800"
+      height="350"/>
+      <br>
+      <table>
+        <tr>
+        <td class="box">.. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
+            quisquam.. </td>
+        </tr>
+        </table>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam harum natus modi eius id non ab neque odit eos rerum recusandae repellat facilis sit perferendis distinctio repudiandae ratione asperiores, nisi nihil velit hic dolorum et ut? Consequuntur earum iusto temporibus id quibusdam. Iste. </p>
+<table>
+    <tr>
+<th class="word">About the shop</th>
+<th class="word">Shop</th>
+<th class="word">About</th>
+<th class="word">Newsletter</th>
+    </tr>
+<tr>
+<th class="word">We lovingly create products that will complement and enhance the daily self-care ritual.</th>
+<th class="word">BUNDLES & DEALS</th>
+<th class="word">Privacy Policy</th>
+<th class="word">Subscribe to receive updates, access to exclusive deals, and more.</th>
+</tr>
+<tr>
+  <th class="word">Contact No: 0000000000</th>
+  <th class="word">face</th>
+  <th class="word">tterms of service</th>
+  <th class="word"><input type=" " placeholder="Enter your email Address"></th>
+ 
+  </tr>
+  <tr>
+    <th class="word">WhatsApp No: 0000000000
+      Email: ...........@gmail.com
+      Instagram: cosmeticspakistan
+      Facebook: cosmeticspk</th>
+    <th class="word">body,lips,hair</th>
+    <th class="word">Artificial program</th>
+   
+    <th class="word"><input type=" " placeholder="Enter your password"></th>
+    </tr>
+    <tr>
+      <th class="word">WhatsApp No: 0000000000
+        Email: ...........@gmail.com
+        Instagram: cosmeticspakistan
+        Facebook: cosmeticspk</th>
+      <th class="word">body,lips,hair</th>
+      <th class="word">Artificial program</th>
+      <th class="word"> <a href="new.html"><button class="sub">Subscribe</button></a></th>
+      
+      </tr>
+      <tr>
+        <th class="word">Contact No: 0000000000</th>
+        <th class="word">face</th>
+        <th class="word">tterms of service</th>
+        <th class="word"> <a href="new.html"><button class="sub">Submite</button></a></th>
+       
+        </tr>
+</table>
+<!--back to top button-->  
+<a href="" class="back-to-top ">
+  <img src="images/ttop btuon.png" alt="" width="30px" height="30px">
+ </a>
+  </body>
+</html>
